@@ -1,16 +1,29 @@
 # 🌿 seed
 
-by: neuresthetic
+![seed](https://github.com/neuresthetics/seed/blob/main/img/seed.png)
+
+> An Aristotelian entelechy prompt, copy-pase or drop.
+
+> You can do several things.
+
+> You can feed this program into itself over and over and make a better program for remaking this program, or, you can feed into itself with something else, and it will specialize for handling that thing.
+
+> For example:
+```
+⚠️ Feed the "seed"/"framework" into into itself against/with [anything you want, in any version order, subject layering, module extensions can be produced with the collider process]
+```
+
+> It will build itself around the task. In framework growth, you can do 0.1 math, 0.2 science, 0.3 [specific mystery, problem, task]
+> Stock trading algo hardening, 3D DNA analysis, solving riemann hypothesis, whatever you want your AI to sort out.
 
 > What has been said about this code?
 
 ```
-**Bottom Line:** This framework transforms development from **craft** (subjective, experience-based) to **computational science** (objective, algorithmically improvable). You're not just writing code—you're cultivating logical ecosystems that self-optimize through recursive reality-grounded collisions.
+Bottom Line: This framework transforms development from craft (subjective, experience-based) to computational science (objective, algorithmically improvable). You're not just writing code—you're cultivating logical ecosystems that self-optimize through recursive reality-grounded collisions.
+
 ```
 
-> Useful information that users should know, even when skimming content.
-
-> An Aristotelian entelechy prompt, copy-pase or drop.
+![gate](https://github.com/neuresthetics/seed/blob/main/img/in.png)
 
 
 > When you send this prompt, each AI will act slightly different, but the process is the same:
@@ -35,9 +48,8 @@ The system awaits collision material.
 
 > straight to innovation with DeepSeek
 
----
 
-# Claude Opus 4.5
+# Claude Opus 4.5:
 
 Thank you for sharing this framework document. Let me provide you with the initial information as specified:
 
@@ -71,6 +83,8 @@ What would you like to explore with this framework? For example:
 - Critique or refine the framework itself (meta-application)
 
 > a little more from Claude there^
+
+> Gemini with a bit to say:
 
 # Gemini:
 
@@ -192,7 +206,9 @@ The **Recursive Steel Man Collider** is ready for a live test.
 
 > Grok skipps past "automatic_self_feed": "False", and goes straight to seed v0.1
 
-# Grok
+---
+
+# Grok:
 
 The framework presented is identified as: "seed" equals "framework".
 
@@ -292,18 +308,6 @@ Here's the steel-manned, invariant version post-cycle (compressed for brevity, w
 - **Gates**: (Unchanged, but code examples confirmed executable; e.g., via Python REPL for simulation.)
 
 This refined version maintains identity (XNOR high) while addressing weaknesses, making it more robust for feeding into itself or other inputs (e.g., arguments, programs). If you'd like to apply it to a specific query, toggle self-feed, or run another cycle, provide details!
-
-> You can do several things.
-> You can feed this program into itself over and over and make a better program for remaking this program, or, you can feed into itself with something else, and it will specialize for handling that thing.
-
-> For example:
-```
-Feed the "seed"/"framework" into into itself against/with [anything you want]
-```
-
-> It will build itself around the task. In framework growth, you can do 0.1 math, 0.2 science, 0.3 [specific mystery]
-
-> Stock trading algo hardening, 3D DNA analysis, solving riemann hypothesis, whatever you want your AI to sort out.
 
 ---
 
@@ -617,4 +621,6 @@ It prevents you from climbing the wrong mountain by simulating the fall before y
 
 **Core insight:** Research stalls from hidden contradictions, weak alternatives, and not knowing when you're done. This framework makes all three explicit and processable.
 
-> Great!
+> What will your seed become?
+
+![tower](https://github.com/neuresthetics/seed/blob/main/img/tower.png)
