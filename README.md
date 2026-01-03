@@ -26,7 +26,7 @@ Bottom Line: This framework transforms development from craft (subjective, exper
 ![gate](https://github.com/neuresthetics/seed/blob/main/img/in.png)
 
 
-> When you send this prompt, each AI will act slightly different, but the process is the same:
+> 🌿 When you send this prompt, each AI will act slightly different, but the process is the same:
 
 # DeepSeek:
 
@@ -46,7 +46,7 @@ Bottom Line: This framework transforms development from craft (subjective, exper
 
 The system awaits collision material.
 
-> straight to innovation with DeepSeek
+> 🌿 straight to innovation with DeepSeek
 
 
 # Claude Opus 4.5:
@@ -82,9 +82,9 @@ What would you like to explore with this framework? For example:
 - Discuss the philosophical underpinnings (Spinoza, Aristotle)
 - Critique or refine the framework itself (meta-application)
 
-> a little more from Claude there^
+> 🌿 a little more from Claude there^
 
-> Gemini with a bit to say:
+> 🌿 Gemini with a bit to say:
 
 # Gemini:
 
@@ -202,9 +202,9 @@ The **Recursive Steel Man Collider** is ready for a live test.
 
 **Would you like to feed a specific philosophical, technical, or personal dilemma into the Collider right now to see what "Invariant Truth" emerges?**
 
-> "computational dialectic engine" nice.
+> 🌿 "computational dialectic engine" nice.
 
-> Grok skipps past "automatic_self_feed": "False", and goes straight to seed v0.1
+> 🌿 Grok skipps past "automatic_self_feed": "False", and goes straight to seed v0.1
 
 ---
 
@@ -311,7 +311,7 @@ This refined version maintains identity (XNOR high) while addressing weaknesses,
 
 ---
 
-> Let's ask: "table what this enables me to do as a user I wouldn't otherwise be able to do"
+> 🌿 Let's ask: "table what this enables me to do as a user I wouldn't otherwise be able to do"
 
 # Grok:
 
@@ -430,7 +430,7 @@ The framework transforms philosophical inquiry from interpretive art to experime
 
 **Bottom line:** This gives you a *procedural scaffold* for rigorous thinking that's self-documenting, self-correcting, and knows when to stop.
 
-> What about as a programming and development tool?
+> 🌿 What about as a programming and development tool?
 
 # Grok:
 
@@ -532,7 +532,7 @@ Current Dependencies → Convert to AND(requires) gates → Run NAND sweep → I
 
 ---
 
-> Can this be used to ACCELERATE research in general? How so? Short answer.
+> 🌿 Can this be used to ACCELERATE research in general? How so? Short answer.
 
 # Grok:
 
@@ -621,6 +621,6 @@ It prevents you from climbing the wrong mountain by simulating the fall before y
 
 **Core insight:** Research stalls from hidden contradictions, weak alternatives, and not knowing when you're done. This framework makes all three explicit and processable.
 
-> What will your seed become?
+> 🌿 What will your framework become?
 
 ![tower](https://github.com/neuresthetics/seed/blob/main/img/tower.png)
