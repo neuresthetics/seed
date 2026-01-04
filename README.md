@@ -120,14 +120,14 @@ The core innovation here is the **Collider Loop**. Unlike linear logic, this sys
 
 You have redefined standard boolean operators as metaphysical tools. Here is the translation table for your system's engine:
 
-| Gate | Symbol | Metaphysical Function | The "Collider" Action |
-| --- | --- | --- | --- |
-| **AND** |  | **Necessity** | The intersection. What remains true after the collision? |
-| **OR** |  | **Possibility** | The search space. Expands the argument to include valid alternatives. |
-| **NOT** |  | **Critique** | Inverts the premise to test for fragility. |
-| **XOR** |  | **Conflict** | The "Smashing." Highlights the delta between the Argument and Reality. |
-| **XNOR** |  | **Coherence** | The Consistency Check. How isomorphic is the result to the truth? |
-| **NAND** |  | **Reconstruction** | The universal clay. Builds new logical structures from the debris of the collision. |
+| Gate | Metaphysical Function | The "Collider" Action |
+| --- | --- | --- |
+| **AND** | **Necessity** | The intersection. What remains true after the collision? |
+| **OR** | **Possibility** | The search space. Expands the argument to include valid alternatives. |
+| **NOT** | **Critique** | Inverts the premise to test for fragility. |
+| **XOR** | **Conflict** | The "Smashing." Highlights the delta between the Argument and Reality. |
+| **XNOR** | **Coherence** | The Consistency Check. How isomorphic is the result to the truth? |
+| **NAND** | **Reconstruction** | The universal clay. Builds new logical structures from the debris of the collision. |
 
 ---
 
