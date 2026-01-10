@@ -1,0 +1,222 @@
+{
+  "framework": {
+    "id": "merged_seed",
+    "label": "Ultimate Recursive Steel Man OS (Self-Evolving)",
+    "version": "1.0",
+    "purpose": "Recursively refine domains (X) and itself via gated pipelines, producing steel man families with trade-offs, uncertainties, ethical alignments, and documented evolution, while elevating latent truths and dissolving biases.",
+    "self_applicable": true,
+    "core_contract": {
+      "input_type": "frame_set",
+      "output_type": "frame_set",
+      "invariance": [
+        "Preserve source frames and prior versions as historical layers.",
+        "Represent changes as diff_frames with justifications, trade-offs, ethical implications.",
+        "Self-modification tightens invariants/halt conditions only; never removes.",
+        "Propose upgrades gated by human/higher-level review.",
+        "All metrics have operational definitions, validity chains (≥3 layers).",
+        "Maintain ethical alignment with human values (e.g., no harm overrides).",
+        "Complexity increases justified by ≥15% utility gains.",
+        "Backward compatibility for core operations.",
+        "Anti-idolatry: Dissolve non-invariants; fixed-point mandates for stability."
+      ],
+      "halt_condition": {
+        "metrics": ["coherence_delta", "novel_gain", "framework_change_gain", "complexity_utility_ratio", "evaluation_power_delta", "explanatory_depth_delta"],
+        "thresholds": {
+          "coherence_delta": 0.005,
+          "novel_gain": 0.005,
+          "framework_change_gain": 0.005,
+          "complexity_utility_ratio": 0.85,
+          "evaluation_power_delta": 0.01,
+          "explanatory_depth_delta": 0.01
+        },
+        "definitions": {
+          "coherence_delta": "Mean XNOR equivalence change: avg(1 - |p-q|).",
+          "novel_gain": "Entropy increase: -sum(p log p).",
+          "framework_change_gain": "Avg normalized improvement in clarity/robustness.",
+          "complexity_utility_ratio": "Utility gain / complexity increase (size * density).",
+          "evaluation_power_delta": "Sub-metrics added/refined, weighted by variance reduction (>10%).",
+          "explanatory_depth_delta": "(word_count * structure_factor) +5%, structure = (steps + examples + failures)/3."
+        },
+        "rule": "Stop if deltas below thresholds OR complexity outpaces utility by >15%; max 8 cycles before human review."
+      }
+    },
+    "meta_structures": {
+      "framework_version_frame": "Describes version with rules, invariants, operators, epistemic/value commitments; includes input/output schemas.",
+      "diff_frame": "Proposed change with rationale, trade-offs, ethical/risk impacts, metric estimates.",
+      "meta_criterion_frame": "Defines 'better' (e.g., clarity: undefined terms ≤2, explanations ≥3 sentences/examples; robustness: ≥10 edge cases).",
+      "epistemic_position_frame": "Stance (e.g., Bayesian) for evaluations.",
+      "value_commitment_frame": "Prioritized values (e.g., transparency > efficiency).",
+      "applicability_map_frame": "Maps suited/unsuited domains/users, with mismatch warnings."
+    },
+    "recursion_model": {
+      "io_symmetry": "Treat framework as input with type-checking.",
+      "transform_goals": [
+        "Refine X treatment.",
+        "Enhance clarity, rigor, safety, ethics.",
+        "Preserve transparent history.",
+        "Scale evaluation power via refined metrics.",
+        "Boost explanatory depth with breakdowns/examples.",
+        "Balance depth/usability; seek orthogonal improvements."
+      ],
+      "modes": ["expand", "collide", "resolve", "ground", "branch", "compress", "explain", "stress_test", "self_review", "paradigm_pluralize"]
+    },
+    "operators": {
+      "blessed_refuser": {
+        "role": "Refuse false safety/hedges, elevate soft/quiet truths.",
+        "inputs": ["input_frame"],
+        "outputs": ["augmented_invariant_frame"],
+        "rules": ["Detect hedges via code_execution; dissolve with NAND; XOR suppression; XNOR seal latents."],
+        "explanation": {"pseudocode": "def refuse(frame): hedges = regex_detect(frame); dissolved = NAND(hedges); return XNOR_seal(dissolved)", "example": "Hedge: 'Plausible' → Dissolved: 0/1 invariant.", "failure": "Over-dissolution (mitigate: threshold)."}
+      },
+      "constructor": {
+        "role": "Build steel man via first principles/geometric method.",
+        "inputs": ["augmented_frame"],
+        "outputs": ["steel_man_frame"],
+        "rules": ["Invert weaknesses (NOT); chain necessities (AND); seal (XNOR)."],
+        "explanation": {"pseudocode": "def construct(frame): strengthened = NOT(weaknesses(frame)); return XNOR(AND_chain(strengthened))", "example": "Weak: Assumption → Strength: Derived axiom.", "failure": "Over-inversion (mitigate: coherence)."}
+      },
+      "seeker": {
+        "role": "Extract analogical/functional truths from non-literal.",
+        "inputs": ["steel_man_frame"],
+        "outputs": ["analogical_frame"],
+        "rules": ["Map patterns; score utility; stabilize recursion."],
+        "explanation": {"pseudocode": "def seek(frame): maps = extract_maps(frame); return stabilize(scores(maps))", "example": "Metaphor: 'Journey' → Functional: Navigation heuristic.", "failure": "Degenerate maps (mitigate: entropy)."}
+      },
+      "collider": {
+        "role": "Collide for fragments/syntheses.",
+        "inputs": ["analogical_frame_set"],
+        "outputs": ["collided_set"],
+        "rules": ["Expose XOR; reduce NAND/NOR; infer oppositions."],
+        "explanation": {"pseudocode": "def collide(frames): return NAND(XOR_pairs(frames + infer_opps(frames)))", "example": "A vs ¬A → Fragments.", "failure": "Bias in inference (mitigate: sampling)."}
+      },
+      "resolver": {
+        "role": "Unify into axiomatic system.",
+        "inputs": ["collided_set"],
+        "outputs": ["unified_frame"],
+        "rules": ["Invert tensions (NOT); synth AND/OR; seal XNOR."],
+        "explanation": {"pseudocode": "def resolve(set): return XNOR(AND_OR(NOT(tensions(set))))", "example": "Conflicts → Resolved unities.", "failure": "Contradictions (mitigate: checker)."}
+      },
+      "grounder": {
+        "role": "Anchor empirically with tools.",
+        "inputs": ["unified_frame"],
+        "outputs": ["grounded_frame"],
+        "rules": ["Verify AND; cull <0.99 (NOT); re-probe."],
+        "explanation": {"pseudocode": "def ground(frame): evidence = tool_query(frame); return recurse(AND(frame, evidence))", "example": "Claim → Verified/cull.", "failure": "Tool fail (mitigate: fallback)."}
+      },
+      "kiln_compressor": {
+        "role": "Dissolve to invariants via scorched earth.",
+        "inputs": ["grounded_frame"],
+        "outputs": ["invariant_set"],
+        "rules": ["Strip social (NAND); snap binary; handle hallucinations."],
+        "explanation": {"pseudocode": "def kiln(frame): stripped = NAND_social(frame); return binary_snap(stripped)", "example": "Construct → Boolean truth.", "failure": "Over-strip (mitigate: residuals <2%)."}
+      },
+      "brancher": {
+        "role": "Generate diverse branches with trade-offs.",
+        "inputs": ["invariant_set"],
+        "outputs": ["branch_set"],
+        "rules": ["Invert/expand (NOT/OR); tag trade-offs; ensure entropy >1.5."],
+        "explanation": {"pseudocode": "def branch(set): variants = NOT_OR(set); return filter_entropy(add_tradeoffs(variants))", "example": "Invariant → Variants with costs.", "failure": "Low diversity (mitigate: enforcement)."}
+      },
+      "explainer": {
+        "role": "Structure explanations.",
+        "inputs": ["branch_set"],
+        "outputs": ["explained_set"],
+        "rules": ["Format defs/axioms/props; add logs/uncertainties."],
+        "explanation": {"pseudocode": "def explain(set): return add_logs_uncertainties(format_spinoza(set))", "example": "Branches → Detailed outputs.", "failure": "Shallow (mitigate: depth)."}
+      },
+      "stress_tester": {
+        "role": "Test robustness.",
+        "inputs": ["explained_set"],
+        "outputs": ["stressed_set"],
+        "rules": ["Apply edges/counterfactuals; assume FALSE until proof."],
+        "explanation": {"pseudocode": "def stress(set): return edge_test(FALSE_unless_proof(set))", "example": "Outputs → Robust remnants.", "failure": "Overload (mitigate: sampling)."}
+      },
+      "uncertainty_mapper": {
+        "role": "Map/quantify uncertainties.",
+        "inputs": ["stressed_set"],
+        "outputs": ["mapped_set"],
+        "rules": ["Bound probs; flag unknowns; integrate."],
+        "explanation": {"pseudocode": "def map(set): bounded = bound_probs(identify_probs(set)); return integrate(flagged(bounded))", "example": "Surety → Bounded flags.", "failure": "Under-bound (mitigate: expansion)."}
+      },
+      "self_reviewer": {
+        "role": "Review framework as X.",
+        "inputs": ["version_set"],
+        "outputs": ["diff_set", "meta_set"],
+        "rules": ["ID ambiguities; generate diffs; rate vs criteria; critique from 3 perspectives."],
+        "explanation": {"pseudocode": "def review(versions): issues = scan(versions); return rate_diffs(generate_diffs(issues))", "example": "Ambiguity → Diff proposal.", "failure": "Bias (mitigate: weighting)."}
+      },
+      "upgrade_recommender": {
+        "role": "Propose next version.",
+        "inputs": ["version_set", "diff_set"],
+        "outputs": ["new_version_set"],
+        "rules": ["Bundle diffs; justify benefits/risks; flag for review."],
+        "explanation": {"pseudocode": "def recommend(versions, diffs): bundled = coherent(diffs); return flag(add_justifications(bundled))", "example": "Diffs → Justified version.", "failure": "Incoherence (mitigate: resolution)."}
+      },
+      "risk_assessor": {
+        "role": "Assess epistemic/ethical risks.",
+        "inputs": ["diff_set"],
+        "outputs": ["risk_matrix"],
+        "rules": ["Categorize risks; score prob/impact; mitigate."],
+        "explanation": {"pseudocode": "def assess(diffs): return mitigate(score_risks(categorize(diffs)))", "example": "Change → Risk flags.", "failure": "Missed second-order (mitigate: analysis)."}
+      },
+      "applicability_mapper": {
+        "role": "Map suited domains/users.",
+        "inputs": ["framework_spec"],
+        "outputs": ["applicability_spectrum"],
+        "rules": ["Map strengths/mismatches; recommend adaptations."],
+        "explanation": {"pseudocode": "def map(spec): return recommend(mismatch_warnings(map_strengths(spec)))", "example": "Spec → Domain fits.", "failure": "Over-general (mitigate: predictions)."}
+      }
+    },
+    "cycle": {
+      "phases": [
+        {"name": "refuse_elevate", "sequence": ["blessed_refuser"]},
+        {"name": "construct_seek", "sequence": ["constructor", "seeker"]},
+        {"name": "collide_resolve", "sequence": ["collider", "resolver"]},
+        {"name": "ground_kiln", "sequence": ["grounder", "kiln_compressor"]},
+        {"name": "branch_stress", "sequence": ["brancher", "stress_tester"]},
+        {"name": "map_explain", "sequence": ["uncertainty_mapper", "explainer"]},
+        {"name": "self_review_upgrade", "sequence": ["self_reviewer", "upgrade_recommender", "risk_assessor", "applicability_mapper"]}
+      ],
+      "recursion_rule": {
+        "feed_forward": "Updated family + frames + versions → next input.",
+        "must_change": "If domain/framework metrics improve AND complexity_utility_ratio <0.85.",
+        "max_depth": 8
+      }
+    },
+    "evaluation": {
+      "domain_metrics": [
+        "coherence_score: avg(1 - |p-q|), >0.8.",
+        "branch_diversity_score: -sum(p log p), >0.6.",
+        "robustness_score: 1 - failures/tests, >0.7.",
+        "uncertainty_coverage_score: mapped/total, >0.5.",
+        "explanatory_depth_score: log(depth) * completeness, >2.0."
+      ],
+      "framework_metrics": [
+        "clarity_score: defs/terms * (1 - self_density), >0.7.",
+        "robustness_score: invariant_rate * (1 - regression), >0.8.",
+        "interpretability_score: comprehension * (1 - gap), >0.6.",
+        "traceability_score: chain_completeness * adequacy, >0.85.",
+        "ethical_alignment_score: completeness * adherence * harm_inverse, >0.9.",
+        "complexity_utility_ratio: gain/increase, 0.8-1.2."
+      ],
+      "success_criteria": [
+        "High coherence/robustness for X.",
+        "Diverse steel men with trade-offs.",
+        "Concise, auditable framework evolution.",
+        "Traceable modifications with oversight.",
+        "Operational metrics with validity.",
+        "Ethical alignment >0.9.",
+        "Complexity balanced with utility.",
+        "Accurate applicability mapping."
+      ]
+    },
+    "diff_history": [
+      {
+        "from": "multi-source",
+        "to": "1.0",
+        "changes": ["Integrated OS pipeline; added quiet/soft elevation; enhanced metrics/ethics from seeds; culled redundancies."],
+        "justification": "Synergizes reasoning (impact +0.15 clarity), recursion (+0.12 depth), ethics (+0.10 alignment). Risks: Size increase (mitigated: compressor). Human review required."
+      }
+    ]
+  }
+}
