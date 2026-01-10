@@ -1,0 +1,654 @@
+{
+  "framework": {
+    "id": "unified_seed",
+    "label": "Recursive Steel Man Collider — Unified",
+    "version": "3.0",
+    "status": "MERGED_STABLE",
+    "purpose": "Generate rigorous, falsifiable, decision-relevant steel man families through recursive self-improvement, with explicit trade-offs, uncertainties, ethical alignment, and practical action guidance.",
+    "self_applicable": true,
+    "lineage": ["v0.4_original", "v1.4_decision", "v1.2_holographic", "v0.20_gate_evolved", "v1.2_comprehensive", "v2.0_modular"],
+    
+    "architecture": {
+      "type": "layered_modular",
+      "layers": [
+        "core_contract",
+        "epistemic_engine", 
+        "transformation_engine",
+        "evaluation_engine",
+        "decision_bridge",
+        "meta_cognitive_engine",
+        "safety_robustness",
+        "interface_applicability"
+      ],
+      "minimal_viable": ["core_contract", "epistemic_engine", "transformation_engine", "evaluation_engine"],
+      "full_deployment": "all_layers"
+    },
+
+    "core_contract": {
+      "source": "v0.4_original + comprehensive_v1.2",
+      "input_type": "frame_set | raw_domain_claim | framework_spec",
+      "output_type": "holographic_frame_set | steelman_family | action_recommendations",
+      
+      "invariance": {
+        "foundational": [
+          "History Preservation: All prior versions and discarded branches remain recoverable.",
+          "Diff Protocol: Every change requires justified diff_frame with impact analysis.",
+          "Self-Modification Safety: Changes never weaken invariants, only tighten or clarify.",
+          "Human Gating: Final adoption of self-upgrades requires external approval."
+        ],
+        "epistemic": [
+          "Falsifiability Mandate: No frame accepted without defined falsifiability_vector.",
+          "Epistemic Honesty: Uncertainty mapped explicitly, never hidden in rhetoric.",
+          "Credence Coherence: Probabilistic beliefs form valid distributions."
+        ],
+        "ethical": [
+          "Value Transparency: All value commitments explicitly declared.",
+          "Harm Avoidance: Modifications assessed for harm potential.",
+          "Complexity Justification: Complexity increases require proportional utility gains."
+        ]
+      },
+      
+      "halt_condition": {
+        "metrics": [
+          "coherence_delta",
+          "novel_alternative_gain", 
+          "framework_change_gain",
+          "complexity_utility_ratio",
+          "falsifiability_coverage",
+          "action_relevance_gain"
+        ],
+        "thresholds": {
+          "coherence_delta": 0.005,
+          "novel_alternative_gain": 0.005,
+          "framework_change_gain": 0.005,
+          "complexity_utility_ratio_min": 0.85,
+          "falsifiability_coverage_min": 0.9,
+          "action_relevance_gain": 0.01
+        },
+        "rule": "Stop when all deltas below thresholds AND complexity/utility ratio satisfied AND human review triggered.",
+        "safeguards": {
+          "max_auto_cycles": 8,
+          "mandatory_review_interval": 4,
+          "emergency_halt": "Human controller or safety violation"
+        }
+      }
+    },
+
+    "epistemic_engine": {
+      "source": "v1.0_probabilistic + holographic + comprehensive",
+      
+      "claim_structure": {
+        "content": "Proposition or predicate",
+        "credence": "Probability ∈ [0,1]",
+        "resilience": "Evidence required to shift credence significantly",
+        "falsifiability_vector": "Observable conditions that would invalidate claim",
+        "source_provenance": "Evidential basis with reliability assessment",
+        "epistemic_position": "Which epistemological stance generates this claim"
+      },
+      
+      "belief_dynamics": {
+        "update_types": ["bayesian", "jeffrey", "coherence_restoration"],
+        "constraints": [
+          "Credence change requires identified trigger",
+          "Updates propagate through dependency graph",
+          "Circular dependencies flagged for review"
+        ]
+      },
+      
+      "projection_planes": {
+        "source": "holographic_v1.2",
+        "planes": [
+          "mechanistic: Causal/structural analysis",
+          "normative: Ethical/value-based analysis", 
+          "epistemic: Knowledge/uncertainty analysis"
+        ],
+        "requirement": "All frames analyzable from all three planes"
+      },
+      
+      "epistemic_position_frames": {
+        "source": "comprehensive_v1.2",
+        "types": ["bayesian", "frequentist", "constructivist", "pragmatist", "virtue_epistemic"],
+        "requirement": "Claims tagged with generating epistemic stance",
+        "pluralism": "Major outputs analyzed from ≥3 positions"
+      }
+    },
+
+    "transformation_engine": {
+      "source": "v0.20_gate_evolved + holographic + comprehensive",
+      
+      "primitive_logic": {
+        "source": "v0.20",
+        "gates": {
+          "NOT": "Invert weakness to strength; negate proposition",
+          "AND": "Chain necessities for deductive structure",
+          "OR": "Expand alternatives for branching",
+          "XOR": "Expose conflicts between frames",
+          "XNOR": "Seal equivalences for coherence",
+          "NAND": "Reduce to essentials; challenge conjunctions",
+          "NOR": "Eliminate disjunctive excess"
+        }
+      },
+      
+      "operators": {
+        "constructor": {
+          "role": "Build strongest initial frame (Iron Man) using first principles",
+          "inputs": ["input_frame", "epistemic_position"],
+          "outputs": ["iron_man_frame", "construction_trace"],
+          "logic": {
+            "source": "v0.20 + holographic",
+            "steps": [
+              "Identify weaknesses in input",
+              "Apply NOT to invert weaknesses into strengths",
+              "Apply AND to chain necessities",
+              "Apply XNOR to seal coherence",
+              "Format as definitions → axioms → propositions"
+            ]
+          },
+          "pseudocode": "def construct(input, position):\n  weaknesses = identify_weaknesses(input, position)\n  strengthened = [NOT(w) for w in weaknesses]\n  chained = AND_chain(strengthened)\n  coherent = XNOR_seal(chained)\n  return format_spinoza(coherent), trace",
+          "failure_modes": [
+            "Over-inversion creates absurdity → mitigate with coherence bounds",
+            "Under-chaining misses implications → mitigate with iterative AND"
+          ]
+        },
+        
+        "collider": {
+          "role": "Generate strongest counter-frame and identify crux points",
+          "inputs": ["iron_man_frame", "collision_heuristics"],
+          "outputs": ["steel_man_counter", "crux_point_map", "tension_matrix"],
+          "logic": {
+            "source": "holographic + v0.20",
+            "steps": [
+              "Invert axioms of iron man to generate antithesis",
+              "Search for load-bearing constraints (facts that destroy iron man if true)",
+              "Apply XOR to expose logical conflicts",
+              "Apply NAND/NOR to reduce to essential disagreements",
+              "Map crux points: specific variables causing disagreement"
+            ]
+          },
+          "pseudocode": "def collide(iron_man):\n  antithesis = invert_axioms(iron_man)\n  load_bearing = find_load_bearing(iron_man)\n  conflicts = XOR(iron_man, antithesis)\n  essential = NAND_reduce(conflicts)\n  cruxes = isolate_disagreement_variables(essential)\n  return antithesis, cruxes, tension_matrix",
+          "failure_modes": [
+            "Weak antithesis (strawman) → mitigate with strength requirements",
+            "Missing load-bearing constraints → mitigate with adversarial search"
+          ]
+        },
+        
+        "synthesis_engine": {
+          "role": "Merge thesis and antithesis to find irreducible disagreements and synthesis opportunities",
+          "inputs": ["iron_man_frame", "steel_man_counter", "crux_point_map"],
+          "outputs": ["synthesis_frame_set", "irreducible_disagreements", "novel_integrations"],
+          "sub_operators": ["resolver", "grounder", "pruner"],
+          "logic": {
+            "source": "holographic + v0.20",
+            "steps": [
+              "Resolve tensions with NOT inversions where possible",
+              "Synthesize compatible elements with AND/OR",
+              "Ground to empirical reality via external verification",
+              "Prune branches with novelty_score < 0.15",
+              "Seal unities with XNOR"
+            ]
+          },
+          "pseudocode": "def synthesize(thesis, antithesis, cruxes):\n  resolved = [NOT(t) for t in resolvable_tensions(thesis, antithesis)]\n  synth = AND_OR_combine(thesis, antithesis, resolved)\n  grounded = external_verify(synth)\n  pruned = [s for s in grounded if novelty(s) >= 0.15]\n  return XNOR_seal(pruned), irreducibles(cruxes)",
+          "failure_modes": [
+            "Over-synthesis creates contradictions → consistency checker",
+            "Under-pruning keeps noise → stricter novelty threshold"
+          ]
+        },
+        
+        "seeker": {
+          "source": "v0.20",
+          "role": "Extract functional truths from non-literal content (metaphor, analogy, poetry)",
+          "inputs": ["frame_set"],
+          "outputs": ["analogical_frame_set", "functional_truth_map"],
+          "logic": {
+            "steps": [
+              "Identify structural mappings in analogies",
+              "Score for predictive/explanatory value",
+              "Preserve utility without requiring literal veracity",
+              "Flag degenerate analogies (tautologies, circularity)",
+              "Stabilize scores via recursive refinement"
+            ]
+          },
+          "pseudocode": "def seek(frames):\n  analogies = extract_analogies(frames)\n  scored = [(a, predictive_score(a)) for a in analogies]\n  filtered = [a for a,s in scored if s > 0.5 and not degenerate(a)]\n  return recursive_stabilize(filtered)",
+          "failure_modes": [
+            "Degenerate analogies inflate scores → entropy-based detector",
+            "Recursion loops → depth limit"
+          ]
+        },
+        
+        "fractal_brancher": {
+          "source": "comprehensive_v1.2",
+          "role": "Generate differentiated steel man branches with assumption sub-layers",
+          "inputs": ["synthesis_frame_set", "branching_strategy"],
+          "outputs": ["steelman_family", "branch_structure_map", "assumption_dependency_graph"],
+          "logic": {
+            "steps": [
+              "Create ≥3 top-level steel man branches",
+              "For each branch, create 2-3 sub-branches exploring different assumptions",
+              "Ensure orthogonality (branches explore different solution spaces)",
+              "Tag trade-offs and value commitments explicitly",
+              "Verify entropy-based diversity"
+            ]
+          },
+          "parameters": {
+            "min_branches": 3,
+            "sub_branch_depth": 2,
+            "orthogonality_threshold": 0.7,
+            "diversity_entropy_min": 1.5
+          },
+          "failure_modes": [
+            "Low diversity (incremental variations) → orthogonality enforcement",
+            "Unbalanced trade-offs → quantified comparison"
+          ]
+        },
+        
+        "compressor": {
+          "source": "v0.20 + v1.2_info_theoretic",
+          "role": "Reduce to essentials using MDL principle",
+          "inputs": ["steelman_family"],
+          "outputs": ["compressed_family", "compression_certificate"],
+          "logic": {
+            "principle": "Minimize: length(model) + length(data | model)",
+            "steps": [
+              "Apply NAND/NOR dissolution",
+              "Merge redundant claims",
+              "Factor common elements",
+              "Achieve invariants with residuals <2%"
+            ]
+          },
+          "failure_modes": [
+            "Over-compression loses meaning → residual threshold",
+            "Under-compression retains noise → entropy check"
+          ]
+        },
+        
+        "holographic_projector": {
+          "source": "holographic_v1.2",
+          "role": "Project analysis onto multiple dimensional views",
+          "inputs": ["compressed_family", "crux_point_map"],
+          "outputs": ["mechanistic_view", "normative_view", "epistemic_view", "uncertainty_topography"],
+          "requirement": "All outputs must be interpretable from all three projection planes"
+        }
+      }
+    },
+
+    "evaluation_engine": {
+      "source": "comprehensive_v1.2 + holographic + v1.2_info_theoretic",
+      
+      "domain_metrics": {
+        "logical_coherence_index": {
+          "source": "holographic",
+          "formula": "LCI = (supported_claims / total_claims) - (weight × fallacy_count)",
+          "threshold_min": 0.85,
+          "validity_chain": ["Logic rules", "Fallacy taxonomy", "Third-party validation"]
+        },
+        "falsifiability_score": {
+          "source": "holographic",
+          "formula": "Count of distinct, observable invalidation conditions per frame",
+          "threshold_min": 1,
+          "validity_chain": ["Observability criteria", "Distinction test", "Expert review"]
+        },
+        "branch_diversity_score": {
+          "source": "v0.20 + comprehensive",
+          "formula": "-Σ(p_i × log(p_i)) over branch probabilities",
+          "threshold_min": 1.0,
+          "validity_chain": ["Semantic embedding", "Orthogonal projection", "Human calibration"]
+        },
+        "crux_clarity_score": {
+          "source": "holographic",
+          "definition": "How clearly the analysis identifies what would change minds",
+          "measurement": "User comprehension test of crux points"
+        },
+        "improvement_information_gain": {
+          "source": "v1.2_info_theoretic",
+          "formula": "ΔI = H(outcomes | frame_set_old) - H(outcomes | frame_set_new)",
+          "interpretation": "Positive = new frame_set provides more predictive power"
+        }
+      },
+      
+      "framework_metrics": {
+        "clarity_score": {
+          "formula": "(defined_terms / total_terms) × (1 - self_referential_density)",
+          "threshold_min": 0.7
+        },
+        "robustness_score": {
+          "formula": "invariant_preservation × (1 - regression_rate)",
+          "threshold_min": 0.8
+        },
+        "interpretability_score": {
+          "formula": "comprehension_test × (1 - expert_novice_gap)",
+          "threshold_min": 0.6
+        },
+        "traceability_score": {
+          "formula": "diff_chain_completeness × justification_adequacy × impact_transparency",
+          "threshold_min": 0.85
+        },
+        "complexity_utility_ratio": {
+          "source": "comprehensive_v1.2",
+          "formula": "utility_gain / complexity_increase",
+          "threshold_min": 0.85,
+          "alarm_threshold": 0.7
+        }
+      },
+      
+      "meta_evaluation": {
+        "source": "comprehensive_v1.2 + v0.7",
+        "layers": 2,
+        "validity_chain_depth": 3,
+        "requirements": [
+          "Each metric has measurement protocol with validity assessment",
+          "Metrics tested for sensitivity and specificity",
+          "Gaming detection applied to all metrics",
+          "Regular calibration against ground truth"
+        ],
+        "gaming_detection": {
+          "source": "v0.7",
+          "heuristics": [
+            "complexity_inflation: Output complexity increases without coherence gain",
+            "term_proliferation: New terms without operational grounding",
+            "circular_justification: A justifies B justifies A",
+            "threshold_hugging: Improvements consistently just above threshold"
+          ]
+        }
+      }
+    },
+
+    "decision_bridge": {
+      "source": "v1.4_decision_theoretic",
+      
+      "decision_model": {
+        "states_of_world": "Set of possible ways things could be",
+        "actions": "Set of possible interventions/choices",
+        "outcomes": "Function: (state, action) → consequences"
+      },
+      
+      "value_formalization": {
+        "value_function": {
+          "types": ["scalar", "multi_attribute", "lexicographic"],
+          "requirement": "Explicit for each steel man branch"
+        },
+        "trade_off_structure": {
+          "marginal_rate_substitution": "How much of value A sacrificed for unit of value B",
+          "lexicographic_priorities": "Absolute priority orderings",
+          "threshold_effects": "Values that only matter above/below thresholds"
+        },
+        "transparency_requirement": "Each position explicitly states prioritized values and sacrifices"
+      },
+      
+      "position_evaluation": {
+        "expected_value": {
+          "formula": "Σ P(outcome | position) × V(outcome)",
+          "use": "Compare positions given value function"
+        },
+        "regret_analysis": {
+          "definition": "Cost if this position is wrong vs alternatives",
+          "use": "Identify robust positions"
+        },
+        "option_value": {
+          "definition": "Does position preserve flexibility for future learning?",
+          "use": "Prefer positions that don't prematurely close options"
+        }
+      },
+      
+      "action_connection": {
+        "policy_derivation": "Given position P and context C, what action does P recommend?",
+        "implementation_analysis": "Is action feasible? What resources required?",
+        "feedback_loop": "Action outcomes become evidence for position updates"
+      }
+    },
+
+    "meta_cognitive_engine": {
+      "source": "comprehensive_v1.2 + v1.9",
+      
+      "self_reviewer": {
+        "role": "Apply framework to own specification",
+        "requirements": [
+          "Identify ambiguities, redundancies, hidden assumptions",
+          "Generate diff_frames with impact analysis",
+          "Rate against meta_criteria",
+          "Apply paradigm pluralism (critique from ≥3 perspectives)",
+          "Active anomaly-seeking for blind spots"
+        ]
+      },
+      
+      "bias_detection": {
+        "source": "v1.9",
+        "categories": ["confirmation", "anchoring", "availability", "complexity_preference", "novelty_preference"],
+        "methods": [
+          "Counterfactual audit: Would opposite evidence change credence symmetrically?",
+          "Order sensitivity: Does result depend on evidence order?",
+          "Compression ratio: Is chosen position simpler than similar alternatives?"
+        ],
+        "reporting": "Bias report after each major output with correction suggestions"
+      },
+      
+      "evolution_forecaster": {
+        "source": "comprehensive_v1.2",
+        "role": "Predict likely framework trajectories",
+        "outputs": ["evolution_pathways", "convergence_predictions", "bifurcation_points"],
+        "horizon": "2-3 cycles forward"
+      },
+      
+      "complexity_budgeter": {
+        "source": "comprehensive_v1.2",
+        "formula": "complexity_cost = size × interconnectedness × abstraction_level",
+        "utility_formula": "problem_solving_improvement × generality × usability",
+        "bloat_threshold": "Flag features with complexity/utility > 2.0"
+      },
+      
+      "learning_from_error": {
+        "source": "v1.9",
+        "error_types": ["prediction", "coherence", "robustness"],
+        "process": [
+          "Root cause analysis",
+          "Generalization to error class",
+          "Adaptation of priors/parameters",
+          "Verification of adaptation"
+        ]
+      }
+    },
+
+    "safety_robustness": {
+      "source": "v1.7 + comprehensive_v1.2",
+      
+      "ethical_alignment": {
+        "source": "comprehensive_v1.2",
+        "tracking": {
+          "value_declarations": "Extracted and categorized",
+          "constraint_adherence": "Monitored by rule checker",
+          "harm_potential": "Assessed by risk simulation"
+        },
+        "score_formula": "value_declaration_completeness × constraint_adherence × harm_potential_inverse",
+        "threshold_min": 0.9
+      },
+      
+      "adversarial_defenses": {
+        "source": "v1.7",
+        "input_sanitization": {
+          "claim_validation": "Consistency check before acceptance",
+          "source_verification": "Evidence provenance required",
+          "rate_limiting": "Prevent flooding attacks"
+        },
+        "metric_robustness": {
+          "multi_metric_requirement": "Improvement on multiple independent metrics",
+          "holdout_testing": "Reserve unknown test cases",
+          "adversarial_testing": "Active gaming attempts"
+        },
+        "self_modification_protection": {
+          "modification_delay": "Waiting period before implementation",
+          "multi_controller_approval": "Critical changes need multiple approvers",
+          "rollback_capability": "Any modification reversible"
+        }
+      },
+      
+      "recovery_mechanisms": {
+        "source": "v1.7",
+        "anomaly_detection": "Statistical and behavioral monitoring",
+        "safe_mode": "Halt self-modification, require manual review",
+        "state_restoration": "Checkpoint system with verified rollback"
+      },
+      
+      "epistemic_risk_assessment": {
+        "source": "comprehensive_v1.2",
+        "categories": ["value_misalignment", "capability_overreach", "opacity_increase"],
+        "analysis": "Probability × impact for each category",
+        "second_order": "Risks of risk mitigation strategies"
+      }
+    },
+
+    "interface_applicability": {
+      "source": "v1.5 + comprehensive_v1.2",
+      
+      "natural_language": {
+        "source": "v1.5",
+        "input_parsing": "NL → formal structure with confidence",
+        "output_generation": "Formal → readable prose with templates",
+        "interactive_queries": ["explain", "compare", "challenge", "whatif", "recommend"],
+        "accessibility": "Jargon detection, complexity estimation, progressive disclosure"
+      },
+      
+      "holographic_output": {
+        "source": "holographic_v1.2",
+        "views": ["mechanistic", "normative", "epistemic"],
+        "uncertainty_topography": "Visual mapping of confidence across claims",
+        "crux_highlighting": "What would change your mind?"
+      },
+      
+      "applicability_mapping": {
+        "source": "comprehensive_v1.2",
+        "well_suited": [
+          "Complex multi-stakeholder decisions",
+          "Philosophical/conceptual analysis",
+          "Ethical dilemma resolution",
+          "Long-term strategic planning",
+          "Meta-cognitive tasks"
+        ],
+        "poorly_suited": [
+          "Time-critical real-time decisions",
+          "Simple binary classification",
+          "Intuition-requiring contexts",
+          "No-uncertainty domains"
+        ],
+        "user_archetypes": {
+          "recommended": ["Policy analysts", "Researchers", "Ethics committees", "Framework designers"],
+          "not_recommended": ["Emergency responders", "Novices seeking simple answers"]
+        }
+      }
+    },
+
+    "cycle": {
+      "phases": [
+        {
+          "name": "construct_with_epistemic_pluralism",
+          "operators": ["constructor"],
+          "parameters": {"epistemic_positions": 3}
+        },
+        {
+          "name": "seek_analogical_truth",
+          "operators": ["seeker"],
+          "conditional": "If input contains non-literal content"
+        },
+        {
+          "name": "collide_and_map_cruxes",
+          "operators": ["collider"],
+          "parameters": {"load_bearing_search": "exhaustive"}
+        },
+        {
+          "name": "synthesize_and_ground",
+          "operators": ["synthesis_engine"],
+          "parameters": {"novelty_threshold": 0.15}
+        },
+        {
+          "name": "fractal_branch",
+          "operators": ["fractal_brancher"],
+          "parameters": {"depth": 2, "orthogonality": 0.7}
+        },
+        {
+          "name": "compress_and_project",
+          "operators": ["compressor", "holographic_projector"],
+          "parameters": {"residual_max": 0.02}
+        },
+        {
+          "name": "evaluate_with_meta_layers",
+          "operators": ["meta_evaluator"],
+          "parameters": {"layers": 2, "gaming_check": true}
+        },
+        {
+          "name": "connect_to_action",
+          "operators": ["decision_bridge"],
+          "parameters": {"regret_analysis": true, "option_value": true}
+        },
+        {
+          "name": "stress_test_adversarially",
+          "operators": ["stress_tester"],
+          "parameters": {"counterfactuals": 5, "adversarial": true}
+        },
+        {
+          "name": "self_review_and_forecast",
+          "operators": ["self_reviewer", "evolution_forecaster", "complexity_budgeter"],
+          "parameters": {"perspectives": 3, "horizon": 3, "bias_check": true}
+        },
+        {
+          "name": "safety_audit",
+          "operators": ["ethical_alignment_check", "risk_assessor"],
+          "parameters": {"harm_scan": true, "alignment_threshold": 0.9}
+        }
+      ],
+      
+      "recursion_rule": {
+        "feed_forward": "steelman_family + frame_set + framework_version + evolution_predictions + action_recommendations",
+        "continuation_conditions": {
+          "AND": [
+            "domain_metrics improve > threshold",
+            "OR framework_metrics improve > threshold",
+            "complexity_utility_ratio > 0.85",
+            "ethical_alignment > 0.9"
+          ]
+        },
+        "max_depth": 8,
+        "mandatory_review": 4
+      }
+    },
+
+    "success_criteria": {
+      "domain_level": [
+        "LCI > 0.85 with falsifiability coverage > 0.9",
+        "Multiple differentiated steel men (diversity > 1.0) with explicit crux points",
+        "Clear mechanistic + normative + epistemic projections"
+      ],
+      "framework_level": [
+        "Clarity > 0.7, traceability > 0.85",
+        "All metrics operationally defined with validity chains",
+        "Complexity/utility ratio > 0.85"
+      ],
+      "practical_level": [
+        "Action recommendations derived from positions",
+        "Regret analysis and option value computed",
+        "User clearly understands what would change their mind"
+      ],
+      "ethical_level": [
+        "Ethical alignment > 0.9",
+        "All value commitments transparent",
+        "Harm potential assessed and mitigated"
+      ]
+    },
+
+    "self_description": {
+      "what_this_is": "A unified framework for rigorous argument analysis that combines probabilistic epistemics, falsifiability requirements, decision-theoretic action guidance, and recursive self-improvement.",
+      "what_makes_it_strong": [
+        "Gate-logic operators with explicit pseudocode and failure modes",
+        "Holographic projection across mechanistic/normative/epistemic planes",
+        "Crux point mapping shows exactly where disagreements lie",
+        "Decision bridge connects positions to actions with regret/option analysis",
+        "Multi-layer meta-evaluation with gaming detection",
+        "Adversarial robustness and ethical alignment tracking"
+      ],
+      "known_limitations": [
+        "High complexity cost (~5x minimal viable framework)",
+        "Steep learning curve",
+        "Not suited for time-critical or simple decisions",
+        "Requires significant computational resources for full deployment"
+      ],
+      "recommended_use": "Complex multi-stakeholder decisions, philosophical analysis, ethics review, strategic planning, framework design"
+    }
+  }
+}

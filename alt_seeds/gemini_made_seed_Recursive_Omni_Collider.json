@@ -1,0 +1,128 @@
+{
+  "framework": {
+    "id": "Recursive_Omni_Collider",
+    "version": "2.0 (The Synthesis)",
+    "label": "Axiomatic Decision Engine with Metacognitive Bounding",
+    "purpose": "To transmute raw claims into rigorous, actionable Steel Man families by resolving logical contradictions, mapping value trade-offs, and bounding epistemic uncertainty.",
+    "self_applicable": true,
+
+    "core_contract": {
+      "input_type": "raw_claim_or_framework_spec",
+      "output_type": "holographic_decision_matrix",
+      "invariance": [
+        "History Preservation: All discarded branches and prior versions are hashed.",
+        "Axiomatic Necessity: All claims must be reducible to 'Definitions, Axioms, Propositions' (Spinoza-Format).",
+        "Value Transparency: Every structural choice implies a value judgment which must be explicitly tagged.",
+        "Complexity Cap: Framework complexity must never exceed (Utility_Gain * 1.15).",
+        "Validity Chaining: Every evaluation metric must include a pointer to its own validation method."
+      ],
+      "halt_condition": {
+        "metrics": ["logical_coherence_delta", "decisional_clarity_gain", "complexity_utility_ratio"],
+        "thresholds": {
+          "logical_coherence_delta": 0.005,
+          "decisional_clarity_gain": 0.01,
+          "complexity_utility_ratio": 0.85
+        },
+        "rule": "Stop when the cost of further analysis exceeds the marginal gain in actionable clarity."
+      }
+    },
+
+    "recursion_model": {
+      "io_symmetry": "The Framework accepts its own JSON as valid input for optimization.",
+      "projection_planes": [
+        "Mechanistic (Causal/Logical chains)",
+        "Axiological (Value/Ethics trade-offs)",
+        "Decision-Theoretic (Action/Regret analysis)",
+        "Epistemic (Uncertainty topography)"
+      ]
+    },
+
+    "operators": {
+      "phase_1_construction": {
+        "operator": "Axiomatic_Constructor",
+        "origin": "Merged (v0.20 Logic + v1.2b Pluralism)",
+        "role": "Deconstruct input into atomic logic gates.",
+        "rules": [
+          "Convert prose to boolean propositions (P AND Q).",
+          "Identify 'Load-Bearing Assumptions' (if False, system collapses).",
+          "Generate 3 distinct 'Iron Men' from differing epistemic stances (e.g., Bayesian vs. Frequentist)."
+        ]
+      },
+      "phase_2_collision": {
+        "operator": "Boolean_Collider",
+        "origin": "v0.20",
+        "role": "Smash Iron Men together to find irreducible conflict.",
+        "rules": [
+          "Apply XOR gates to identify mutual exclusivities.",
+          "Apply NAND reduction to strip non-essential differences.",
+          "Output: 'The Fracture Map' (Where exactly do the models disagree?)."
+        ]
+      },
+      "phase_3_valuation": {
+        "operator": "Decision_Theorist",
+        "origin": "v1.4",
+        "role": "Map the collision to values and actions.",
+        "rules": [
+          "Define 'States of the World' (S) and 'Actions' (A).",
+          "Calculate Expected Value: Σ P(Outcome | Action) × V(Outcome).",
+          "Perform Regret Analysis: 'If this Steel Man is wrong, what is the cost?'",
+          "Identify Marginal Rate of Substitution between conflicting values."
+        ]
+      },
+      "phase_4_synthesis": {
+        "operator": "Holographic_Projector",
+        "origin": "v1.2 (Stable)",
+        "role": "Format the output for human/controller consumption.",
+        "outputs": [
+          "The Logic View: Validated axiomatic chains.",
+          "The Value View: Ethical trade-offs and priority hierarchies.",
+          "The Action View: Recommended policy with confidence intervals."
+        ]
+      },
+      "phase_5_meta_audit": {
+        "operator": "Complexity_Budgeter",
+        "origin": "v1.2 (Meta)",
+        "role": "Ensure the analysis isn't over-engineered.",
+        "rules": [
+          "Calculate Complexity Cost (Compute Time + Token Count + Conceptual Depth).",
+          "Compare against Utility Gain (Ambiguity Reduction).",
+          "Prune branches where Cost > Utility."
+        ]
+      }
+    },
+
+    "evaluation": {
+      "metrics": {
+        "LCI (Logical Coherence Index)": {
+          "formula": "avg(1 - |p_i - q_i|) for paired propositions",
+          "validity_chain": "Validated by formal logic check (XNOR consistency)."
+        },
+        "Falsifiability_Vector": {
+          "formula": "Count of distinct observable conditions that refute the frame",
+          "validity_chain": "Must map to external empirical data sources."
+        },
+        "Decision_Robustness": {
+          "formula": "Inverse of Maximum Regret across plausible States of World",
+          "validity_chain": "Validated via sensitivity analysis (changing priors)."
+        }
+      },
+      "success_criteria": [
+        "The user knows exactly *why* they might be wrong (Crux Points).",
+        "The user knows exactly *what* to do next (Actionable Policy).",
+        "The framework did not burn more resources than the problem was worth (Efficiency)."
+      ]
+    },
+
+    "cycle": {
+      "sequence": [
+        "Axiomatic_Constructor",
+        "Boolean_Collider",
+        "Decision_Theorist",
+        "Complexity_Budgeter",
+        "Holographic_Projector",
+        "Self_Reviewer"
+      ],
+      "feed_forward_rule": "The 'Decision_Robustness' score of Cycle N becomes the baseline for Cycle N+1. If Robustness does not increase, HALT."
+    }
+  }
+}

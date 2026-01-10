@@ -1,0 +1,458 @@
+{
+  "framework": {
+    "id": "seed_synthesis",
+    "label": "Recursive Steel Man Collider (Synthesized Evolution)",
+    "version": "2.0",
+    "purpose": "Generate maximally rigorous, falsifiable, and actionable analyses of complex domains (X) through recursive self-improvement, maintaining ethical constraints while optimizing for explanatory depth, evaluation power, and practical applicability.",
+    "self_applicable": true,
+    "creation_date": "2024-01-01",
+    "synthesis_source": ["v0.4", "v1.4", "seed_evolved_v1.2", "v0.20", "v1.2_latest"],
+    
+    "core_contract": {
+      "input_type": "raw_domain_claim_or_framework_spec",
+      "output_type": "holographic_frame_set",
+      "invariance": [
+        "History Preservation: All prior versions and discarded branches are hashed and stored.",
+        "Diff Protocol: Every change to X or Framework requires a justified `diff_frame`.",
+        "Falsifiability Mandate: No frame accepted without defined `falsifiability_vector`.",
+        "Epistemic Honesty: Uncertainty must be mapped explicitly.",
+        "Value Transparency: All positions must declare value trade-offs.",
+        "Complexity Budget: Utility gains must outpace complexity increases.",
+        "Action Connection: Analyses must connect to concrete actions/decisions."
+      ],
+      "halt_condition": {
+        "metrics": ["coherence_delta", "novel_alternative_gain", "framework_change_gain", "complexity_utility_ratio", "decision_resolution_score"],
+        "thresholds": {
+          "coherence_delta": 0.005,
+          "novel_alternative_gain": 0.005,
+          "framework_change_gain": 0.005,
+          "complexity_utility_ratio": 0.85,
+          "decision_resolution_score": 0.8
+        },
+        "rule": "Stop when improvements < thresholds OR when additional cycles risk over-refinement (complexity_utility_ratio < 0.7).",
+        "safeguards": [
+          "Max 8 automatic self-application cycles",
+          "Mandatory human review after 4 cycles",
+          "Ethical alignment check before each recursion"
+        ]
+      }
+    },
+    
+    "meta_structures": {
+      "framework_version_frame": "A frame describing a version of this seed with rules, invariants, operators, epistemic assumptions, and value commitments.",
+      "diff_frame": "A frame encoding change from version A to B plus rationale, trade-offs, ethical implications, and quantitative impact estimates.",
+      "meta_criterion_frame": "A frame defining 'better' framework (clarity, robustness, interpretability, ethical alignment).",
+      "measurement_protocol_frame": "A frame defining how metrics are measured, with validity chains extending ≥3 layers.",
+      "epistemic_position_frame": "A frame declaring specific epistemological stance (Bayesian, frequentist, constructivist).",
+      "value_commitment_frame": "A frame making explicit which values are prioritized in design choices.",
+      "applicability_map_frame": "A frame mapping framework suitability to problem domains and user types.",
+      "decision_frame": "A frame encoding states_of_world, actions, outcomes, and value functions for decision analysis.",
+      "falsifiability_vector_frame": "A frame defining observable conditions that would invalidate the position.",
+      "crux_point_frame": "A frame isolating irreducible disagreements between positions with testable implications."
+    },
+    
+    "projection_system": {
+      "planes": [
+        {
+          "name": "Mechanistic",
+          "focus": "Causal/structural analysis",
+          "output": "Causal_graph, dependency_maps, structural_invariants"
+        },
+        {
+          "name": "Normative",
+          "focus": "Ethical/value analysis",
+          "output": "Value_tradeoffs, ethical_constraints, stakeholder_preferences"
+        },
+        {
+          "name": "Epistemic",
+          "focus": "Knowledge/uncertainty analysis",
+          "output": "Belief_graphs, confidence_intervals, evidence_weights"
+        },
+        {
+          "name": "Decision-Theoretic",
+          "focus": "Action/outcome analysis",
+          "output": "Expected_value_calculations, regret_analysis, option_value_assessments"
+        }
+      ],
+      "holographic_integration": "All planes must be coherent and mutually informative."
+    },
+    
+    "operators": {
+      "constructor": {
+        "role": "Build strongest possible interpretation from input using first principles.",
+        "inputs": ["input_frame", "epistemic_position_frame", "value_commitment_frame"],
+        "outputs": ["iron_man_frame", "construction_log"],
+        "rules": [
+          "Deconstruct input into atomic axioms",
+          "Maximize logical validity assuming best intent",
+          "Generate at least 3 distinct interpretations from different epistemic positions",
+          "Track assumptions varied for each alternative"
+        ],
+        "explanation": {
+          "pseudocode": "def construct(input, epistemic_position, values):\n  axioms = deconstruct_to_atomics(input)\n  interpretations = []\n  for i in range(3):\n    pos = sample_epistemic_position(epistemic_position)\n    strong = maximize_validity(axioms, pos, values)\n    interpretations.append((strong, pos))\n  return best_interpretation(interpretations), log(interpretations)",
+          "example": "Input: 'Market regulation improves outcomes.' Axioms: market, regulation, outcomes. Interpretations: Neoclassical (efficiency focus), Behavioral (bias correction), Institutional (rule-of-law).",
+          "failure_modes": "Over-optimization creates strawman (mitigate: reality anchoring), Position sampling bias (mitigate: orthogonal sampling)."
+        }
+      },
+      
+      "collider": {
+        "role": "Generate steel man counter-positions by inverting load-bearing constraints.",
+        "inputs": ["iron_man_frame", "collision_heuristics"],
+        "outputs": ["steel_man_counter_frame", "contradiction_graph", "load_bearing_constraints"],
+        "rules": [
+          "Identify load-bearing constraints (facts that destroy position if true)",
+          "Invert using XOR to generate strongest counter-position",
+          "Map logical, pragmatic, value, and uncertainty contradictions",
+          "Detect isomorphism collisions (same structure, different forms)"
+        ],
+        "explanation": {
+          "pseudocode": "def collide(frame):\n  constraints = find_load_bearing_constraints(frame)\n  inversions = [xor(constraint) for constraint in constraints]\n  counter = synthesize_counter(inversions)\n  contradictions = map_contradictions(frame, counter)\n  return counter, contradictions, constraints",
+          "example": "Iron Man: 'Free markets optimal.' Load-bearing: Perfect information. Inversion: XOR(perfect_info) → Imperfect information. Counter: 'Regulation needed due to information asymmetry.'",
+          "failure_modes": "Missing subtle constraints (mitigate: multi-pass analysis), Weak inversions (mitigate: strength scoring)."
+        }
+      },
+      
+      "synthesis_engine": {
+        "role": "Merge positions to find irreducible disagreements with testable implications.",
+        "inputs": ["iron_man_frame", "steel_man_counter_frame_set"],
+        "outputs": ["crux_point_map", "synthetic_frame", "testable_implications"],
+        "rules": [
+          "Resolve compatible elements with AND/OR gates",
+          "Isolate irreducible disagreements as crux points",
+          "Generate testable implications for each crux",
+          "Prune branches with novelty_score < 0.15"
+        ],
+        "explanation": {
+          "pseudocode": "def synthesize(iron, counters):\n  compatible = find_compatible(iron, counters)\n  synthetic = and_or_merge(compatible)\n  disagreements = find_irreducible(iron, counters, compatible)\n  crux_points = [(d, generate_tests(d)) for d in disagreements]\n  return filter_novel(crux_points, 0.15), synthetic, [t for _, t in crux_points]",
+          "example": "Iron: Markets efficient. Counter: Regulation needed. Compatible: Both want good outcomes. Irreducible: Information symmetry. Test: Compare outcomes in high vs low information sectors.",
+          "failure_modes": "False synthesis (mitigate: consistency checking), Weak test generation (mitigate: test quality scoring)."
+        }
+      },
+      
+      "decision_theoretic_analyzer": {
+        "role": "Apply decision theory to positions: expected value, regret, option value.",
+        "inputs": ["position_frame", "value_function_frame", "uncertainty_frame"],
+        "outputs": ["expected_value_score", "regret_matrix", "option_value_assessment", "policy_recommendations"],
+        "rules": [
+          "Map position → policy → outcomes given states of world",
+          "Calculate expected value: Σ P(outcome|position) × V(outcome)",
+          "Compute regret: max(alternatives) - chosen_value",
+          "Assess option value: preservation of future flexibility"
+        ],
+        "explanation": {
+          "pseudocode": "def analyze_decision(position, values, uncertainties):\n  policies = extract_policies(position)\n  outcomes = simulate_outcomes(policies, uncertainties)\n  ev = expected_value(outcomes, values)\n  regret = regret_analysis(policies, alternatives, values)\n  option_val = option_value(policies)\n  return ev, regret, option_val, recommend_policy(policies, ev, regret)",
+          "example": "Position: Early intervention. Policies: Act now vs wait. Outcomes: Various cost/benefit profiles. EV calculation weights outcomes by probability. Regret: How bad if wrong? Option value: Does waiting preserve options?",
+          "failure_modes": "Oversimplified outcome modeling (mitigate: scenario expansion), Value function misspecification (mitigate: sensitivity analysis)."
+        }
+      },
+      
+      "fractal_brancher": {
+        "role": "Generate steel man families with sub-branches exploring assumption layers.",
+        "inputs": ["synthetic_frame", "crux_point_map", "branching_strategy"],
+        "outputs": ["steelman_family", "assumption_dependency_graph", "tradeoff_matrix"],
+        "rules": [
+          "Create ≥3 top-level steel man branches exploring orthogonal solution spaces",
+          "For each branch, create 2-3 sub-branches varying foundational assumptions",
+          "Explicitly tag value trade-offs and uncertainties for each branch",
+          "Ensure diversity via entropy measures (min_entropy: 1.5)"
+        ],
+        "explanation": {
+          "pseudocode": "def fractal_branch(synthetic, crux_points):\n  top_branches = generate_orthogonal_branches(synthetic, 3)\n  families = []\n  for branch in top_branches:\n    sub = vary_assumptions(branch, 2, crux_points)\n    families.append((branch, sub))\n  tradeoffs = compute_tradeoffs(families)\n  return families, build_dependency_graph(families), tradeoffs",
+          "example": "Top branch: Market solution. Sub-branches: Perfect competition assumption, Imperfect with reputation, Imperfect with regulation. Trade-offs: Efficiency vs equity, Innovation vs stability.",
+          "failure_modes": "Low diversity (mitigate: orthogonalization), Redundant sub-branches (mitigate: similarity pruning)."
+        }
+      },
+      
+      "holographic_projector": {
+        "role": "Project analysis onto all projection planes for multi-dimensional view.",
+        "inputs": ["steelman_family", "projection_config"],
+        "outputs": ["mechanistic_view", "normative_view", "epistemic_view", "decision_view", "integrated_analysis"],
+        "rules": [
+          "Generate causal graphs for mechanistic plane",
+          "Extract value trade-offs for normative plane",
+          "Map uncertainties and evidence for epistemic plane",
+          "Calculate expected values and regrets for decision plane",
+          "Ensure cross-plane coherence"
+        ],
+        "explanation": {
+          "pseudocode": "def project(family):\n  mechanistic = extract_causal_structure(family)\n  normative = extract_values_tradeoffs(family)\n  epistemic = map_uncertainties_evidence(family)\n  decision = compute_decisions(family)\n  integrated = check_coherence([mechanistic, normative, epistemic, decision])\n  return mechanistic, normative, epistemic, decision, integrated",
+          "example": "Policy analysis: Mechanistic (causal pathways), Normative (who benefits/loses), Epistemic (confidence intervals), Decision (expected values). Integrated shows tensions between planes.",
+          "failure_modes": "Plane incoherence (mitigate: reconciliation algorithm), Incomplete projection (mitigate: completeness checking)."
+        }
+      },
+      
+      "meta_evaluator": {
+        "role": "Apply evaluation metrics to evaluation methods themselves (meta-evaluation).",
+        "inputs": ["evaluation_protocols", "validity_chains"],
+        "outputs": ["meta_evaluation_report", "protocol_validity_scores", "improvement_recommendations"],
+        "rules": [
+          "For each measurement protocol, assess its own validity and reliability",
+          "Create validity chains extending ≥3 layers deep",
+          "Detect circular or weakly-grounded evaluation methods",
+          "Apply 2+ layers of meta-evaluation"
+        ],
+        "explanation": {
+          "pseudocode": "def meta_evaluate(protocols):\n  scores = []\n  for protocol in protocols:\n    validity = assess_validity(protocol)\n    chain = build_validity_chain(protocol, depth=3)\n    circular = detect_circularity(chain)\n    scores.append((protocol, validity, chain, circular))\n  recommendations = generate_improvements(scores)\n  return scores, recommendations",
+          "example": "Metric: coherence_score. Validity chain: 1) Defined as 1 - contradictions/frames, 2) Contradictions identified by formal logic, 3) Logic verified by theorem prover. Meta-evaluation: Check if theorem prover itself is valid.",
+          "failure_modes": "Infinite regress (mitigate: pragmatic grounding), Validity chain gaps (mitigate: gap filling)."
+        }
+      },
+      
+      "epistemic_risk_assessor": {
+        "role": "Quantify dangers of positions and framework modifications.",
+        "inputs": ["position_frame", "risk_taxonomy", "value_commitment_frame"],
+        "outputs": ["risk_assessment_matrix", "safety_recommendations", "second_order_risks"],
+        "rules": [
+          "Categorize risks: value misalignment, capability overreach, epistemic hazards",
+          "Assign probability × impact scores",
+          "Propose mitigation strategies",
+          "Include second-order risk analysis"
+        ],
+        "explanation": {
+          "pseudocode": "def assess_risks(position, values):\n  risks = categorize_risks(position)\n  scores = [(r, probability(r), impact(r, values)) for r in risks]\n  mitigations = propose_mitigations(scores)\n  second_order = analyze_second_order(mitigations)\n  return scores, mitigations, second_order",
+          "example": "Position: Centralized AI control. Risks: Single point failure (high prob, high impact), Value lock-in (medium prob, high impact). Mitigations: Decentralization, Value auditing. Second-order: Decentralization → coordination problems.",
+          "failure_modes": "Risk blindness (mitigate: adversarial brainstorming), Quantification errors (mitigate: range estimation)."
+        }
+      },
+      
+      "complexity_budgeter": {
+        "role": "Ensure framework and analysis complexity justified by utility.",
+        "inputs": ["artifact", "complexity_metrics", "utility_metrics"],
+        "outputs": ["complexity_utility_ratio", "optimization_recommendations", "bloat_identification"],
+        "rules": [
+          "Calculate complexity cost index: size × interconnectedness × abstraction",
+          "Measure utility: problem_solving × generality × usability",
+          "Flag artifacts with complexity/utility ratio > 2.0",
+          "Apply conceptual economy: compress without loss"
+        ],
+        "explanation": {
+          "pseudocode": "def budget_complexity(artifact):\n  complexity = compute_complexity_index(artifact)\n  utility = compute_utility(artifact)\n  ratio = utility / complexity\n  bloat = identify_bloat(artifact, threshold=2.0)\n  optimizations = suggest_optimizations(artifact, bloat)\n  return ratio, optimizations, bloat",
+          "example": "Framework with 50 operators but only 10 frequently used. Complexity high, utility moderate. Ratio low. Recommendations: Modularize, prune unused operators.",
+          "failure_modes": "Utility misestimation (mitigate: multi-method assessment), Premature optimization (mitigate: threshold tuning)."
+        }
+      },
+      
+      "applicability_mapper": {
+        "role": "Define where framework/position works well and poorly.",
+        "inputs": ["artifact", "problem_taxonomy", "user_archetypes"],
+        "outputs": ["applicability_spectrum", "mismatch_warnings", "adaptation_recommendations"],
+        "rules": [
+          "Map strengths to problem characteristics",
+          "Identify problem types where performance will be poor",
+          "Recommend adaptations for different user types",
+          "Predict failure modes for mismatches"
+        ],
+        "explanation": {
+          "pseudocode": "def map_applicability(artifact):\n  strengths = extract_strengths(artifact)\n  weaknesses = extract_weaknesses(artifact)\n  spectrum = match_to_problems(strengths, problem_taxonomy)\n  mismatches = find_mismatches(weaknesses, problem_taxonomy)\n  adaptations = suggest_adaptations(artifact, user_archetypes)\n  return spectrum, mismatches, adaptations",
+          "example": "Framework excels at multi-stakeholder value conflicts. Poor at time-critical decisions. Adaptation: Add fast heuristic mode for time pressure.",
+          "failure_modes": "Overgeneralization (mitigate: specificity requirements), User archetype oversimplification (mitigate: nuanced profiling)."
+        }
+      },
+      
+      "self_reviewer": {
+        "role": "Apply framework to its own specification for recursive improvement.",
+        "inputs": ["framework_version_frame_set", "meta_criterion_frame_set"],
+        "outputs": ["diff_frame_set", "meta_criterion_frame_set", "self_critique_report"],
+        "rules": [
+          "Identify ambiguities, redundancies, hidden assumptions",
+          "Generate diff_frames proposing clarifications, stronger metrics, tighter invariants",
+          "Rate diffs against meta_criteria (clarity, safety, interpretability)",
+          "Apply paradigm pluralism: critique from ≥3 incompatible perspectives",
+          "Include anomaly-seeking for failures/blind spots"
+        ],
+        "explanation": {
+          "pseudocode": "def self_review(framework):\n  issues = scan_issues(framework)\n  perspectives = sample_perspectives(3)\n  critiques = [critique_from(framework, p) for p in perspectives]\n  diffs = generate_diffs(issues, critiques)\n  rated = rate_diffs(diffs, meta_criteria)\n  report = compile_critique(issues, perspectives, diffs)\n  return diffs, update_meta(meta_criteria, rated), report",
+          "example": "Review finds ambiguity in 'coherence_score' definition. Perspectives: Formal logic (needs formal definition), Pragmatic (needs operationalization), Educational (needs examples). Diffs propose all three.",
+          "failure_modes": "Self-blindness (mitigate: external review protocol), Over-critique (mitigate: balanced scoring)."
+        }
+      },
+      
+      "evolution_forecaster": {
+        "role": "Predict likely future framework trajectories and improvement vectors.",
+        "inputs": ["diff_frame_history", "improvement_patterns", "constraint_projections"],
+        "outputs": ["evolution_pathways", "convergence_predictions", "bifurcation_points", "confidence_intervals"],
+        "rules": [
+          "Extrapolate improvement vectors 2-3 cycles forward",
+          "Identify convergence zones vs divergence opportunities",
+          "Flag potential paradigm shifts",
+          "Include confidence intervals and alternative scenarios"
+        ],
+        "explanation": {
+          "pseudocode": "def forecast_evolution(history):\n  patterns = extract_patterns(history)\n  pathways = extrapolate(patterns, horizon=3)\n  convergence = identify_convergence(pathways)\n  bifurcations = find_bifurcations(pathways)\n  confidence = compute_confidence(pathways, history)\n  return pathways, convergence, bifurcations, confidence",
+          "example": "History shows trend toward formalization. Forecast: Next 2 cycles add more formal proofs. Convergence: May reach formal completeness. Bifurcation: Could shift to pragmatic simplification.",
+          "failure_modes": "Pattern misidentification (mitigate: multiple pattern recognition), Overconfidence (mitigate: confidence calibration)."
+        }
+      }
+    },
+    
+    "cycle_architecture": {
+      "base_cycle": {
+        "phases": [
+          {
+            "name": "construct_and_collide",
+            "sequence": ["constructor", "collider"],
+            "time_budget": "30%",
+            "quality_gate": "≥3 distinct interpretations generated"
+          },
+          {
+            "name": "synthesize_and_decide",
+            "sequence": ["synthesis_engine", "decision_theoretic_analyzer"],
+            "time_budget": "25%",
+            "quality_gate": "Crux points with testable implications identified"
+          },
+          {
+            "name": "branch_and_project",
+            "sequence": ["fractal_brancher", "holographic_projector"],
+            "time_budget": "20%",
+            "quality_gate": "Orthogonal branches with clear trade-offs"
+          },
+          {
+            "name": "evaluate_and_evolve",
+            "sequence": ["meta_evaluator", "self_reviewer", "evolution_forecaster"],
+            "time_budget": "25%",
+            "quality_gate": "Meta-evaluation complete, diffs generated"
+          }
+        ]
+      },
+      
+      "extended_cycle": {
+        "trigger": "Complex problem OR high stakes",
+        "additional_phases": [
+          {
+            "name": "risk_assess",
+            "sequence": ["epistemic_risk_assessor"],
+            "conditions": ["high_stakes=true", "novel_domain=true"]
+          },
+          {
+            "name": "complexity_budget",
+            "sequence": ["complexity_budgeter"],
+            "conditions": ["artifact_size > threshold", "utility_concerns=true"]
+          },
+          {
+            "name": "applicability_map",
+            "sequence": ["applicability_mapper"],
+            "conditions": ["generalization_needed=true", "multiple_users=true"]
+          }
+        ]
+      },
+      
+      "recursion_control": {
+        "max_depth": 8,
+        "depth_definition": "Self-application of framework to itself",
+        "breadth_target": "3-5 orthogonal perspectives maintained",
+        "halt_conditions": [
+          "All improvement metrics < thresholds for 2 consecutive cycles",
+          "Complexity_utility_ratio < 0.7",
+          "Ethical_alignment_score < 0.9"
+        ],
+        "human_review_triggers": [
+          "After 4 cycles",
+          "Paradigm shift detected",
+          "High-risk modification proposed"
+        ]
+      }
+    },
+    
+    "evaluation_system": {
+      "domain_metrics": {
+        "logical_coherence_index": {
+          "formula": "(Supported_Claims / Total_Claims) - (Weight × Logical_Fallacy_Count)",
+          "measurement": "Formal logic verification + fallacy detection",
+          "target": "≥0.85",
+          "validity_chain": ["Logic checker", "Fallacy taxonomy", "Third-party validation"]
+        },
+        "falsifiability_score": {
+          "formula": "Count of distinct, observable invalidation conditions",
+          "measurement": "Test generation and validation",
+          "target": "≥3",
+          "validity_chain": ["Test quality assessment", "Observability verification", "Inter-rater reliability"]
+        },
+        "decision_resolution_score": {
+          "formula": "(Expected_Value_Confidence + Regret_Minimization) / 2",
+          "measurement": "Decision quality under uncertainty",
+          "target": "≥0.8",
+          "validity_chain": ["Value function validation", "Probability calibration", "Outcome simulation"]
+        },
+        "explanatory_depth": {
+          "formula": "log(recursion_depth + 1) × explanation_completeness × perspective_plurality",
+          "measurement": "Multi-layer understanding",
+          "target": "2.0-5.0",
+          "validity_chain": ["Depth measurement", "Completeness assessment", "Perspective counting"]
+        },
+        "tradeoff_transparency": {
+          "formula": "(Explicit_tradeoffs / Implicit_tradeoffs) × clarity_score",
+          "measurement": "Value conflict explicitness",
+          "target": "≥0.9",
+          "validity_chain": ["Tradeoff identification", "Clarity rating", "Stakeholder verification"]
+        }
+      },
+      
+      "framework_metrics": {
+        "framework_clarity_score": {
+          "formula": "(unambiguous_terms / total_terms) × (1 - self_referentiality)",
+          "measurement": "Term definition analysis + self-reference tracking",
+          "target": "≥0.7",
+          "validity_chain": ["Term analysis", "Reference graph", "Newcomer testing"]
+        },
+        "ethical_alignment_score": {
+          "formula": "value_declaration_completeness × constraint_adherence × harm_potential_inverse",
+          "measurement": "Value analysis + constraint checking + risk assessment",
+          "target": "≥0.9",
+          "validity_chain": ["Value extraction", "Constraint verification", "Harm simulation"]
+        },
+        "complexity_utility_ratio": {
+          "formula": "utility_gain_last_cycle / complexity_increase_last_cycle",
+          "measurement": "Problem-solving improvement vs specification growth",
+          "target": "0.8-1.2",
+          "warning": "<0.85",
+          "alarm": "<0.7",
+          "validity_chain": ["Utility assessment", "Complexity measurement", "Independent calibration"]
+        },
+        "change_traceability_score": {
+          "formula": "diff_frame_chain_completeness × justification_adequacy × impact_transparency",
+          "measurement": "Evolution tracking + justification quality + impact mapping",
+          "target": "≥0.85",
+          "validity_chain": ["Chain analysis", "Justification rating", "Impact assessment"]
+        },
+        "applicability_accuracy": {
+          "formula": "predicted_performance / actual_performance across test_domains",
+          "measurement": "Framework self-knowledge of strengths/weaknesses",
+          "target": "≥0.8",
+          "validity_chain": ["Prediction recording", "Performance measurement", "Calibration testing"]
+        }
+      },
+      
+      "meta_evaluation": {
+        "protocol": "All measurement protocols must themselves be measured for validity",
+        "depth_requirement": "Validity chains extend ≥3 layers",
+        "calibration": "Regular calibration against ground truth where available",
+        "sensitivity_analysis": "All metrics tested for sensitivity to assumptions"
+      }
+    },
+    
+    "success_criteria": [
+      "Produces analyses that are both theoretically rigorous and practically actionable",
+      "Explicitly maps value trade-offs and connects positions to concrete decisions",
+      "Maintains high falsifiability and epistemic honesty throughout",
+      "Framework self-improves while maintaining ethical alignment and complexity/utility balance",
+      "Outputs are comprehensible to both experts and educated non-specialists",
+      "Accurately predicts its own applicability and limitations"
+    ],
+    
+    "integration_notes": {
+      "synthesis_achievements": [
+        "Combined v0.4's simplicity with v1.2's sophistication via modular architecture",
+        "Integrated decision theory (v1.4) with holographic projection (seed_evolved)",
+        "Maintained v0.20's operational granularity while adding v1.2's meta-cognition",
+        "Preserved all key invariants from all versions in strengthened form"
+      ],
+      "design_tradeoffs": [
+        "Complexity increased but justified by capability gains",
+        "Some redundancy eliminated (e.g., multiple similar operators consolidated)",
+        "Flexibility preserved through optional extended cycles",
+        "Human oversight enhanced with multiple review triggers"
+      ],
+      "recommended_usage": "Start with base cycle for standard problems, activate extended phases for complex/high-stakes domains, limit recursion to 4-5 cycles for optimal results"
+    }
+  }
+}
