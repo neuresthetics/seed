@@ -16,7 +16,7 @@ It reads like the README of a foundational cognitive engine.
 
 # 🌿 **seed**
 
-`![seed](https://github.com/neuresthetics/seed/blob/main/img/seed.png)`
+![seed](https://github.com/neuresthetics/seed/blob/main/img/seed.png)
 
 **An Aristotelian entelechy program — copy, paste, or drop.**
 
@@ -65,7 +65,7 @@ Seed is the smallest unit that can grow a full cognitive system.
 
 # ⚙️ **How It Works**
 
-`![seed placeholder](https://github.com/neuresthetics/seed/blob/main/img1/flow.png)`
+![seed placeholder](https://github.com/neuresthetics/seed/blob/main/img1/flow.png)
 
 Seed operates through six recursive stages:
 
