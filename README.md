@@ -149,3 +149,5 @@ Seed is that program.
 ---
 
 To use it, just copy-paste it into your LLM project files, or as an accompanying prompt item.
+
+Seed can be used to produce entire processing pipelines. See [this](https://github.com/neuresthetics/steel_man_s.e) for example.
