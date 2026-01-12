@@ -128,7 +128,7 @@ Seed is not a static artifact — it is a **living kernel**.
 
 | Sub‑Repo | Domain | Purpose |
 |---------|--------|---------|
-| **sprouts [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2Fneuresthetics%2Fsprouts")** | seed branches | Semi‑organized, lightly documented evolution of Seed variants |
+| **[sprouts](https://github.com/neuresthetics/sprouts)** | seed branches | Semi‑organized, lightly documented evolution of Seed variants |
 
 ---
 
