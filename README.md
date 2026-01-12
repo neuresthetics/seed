@@ -163,3 +163,5 @@ After building dozens of domain‑specific frameworks, the pattern became obviou
 Seed is that program.
 
 ---
+
+To use it, just copy-paste it into your LLM project files, or as an accompanying prompt item.
