@@ -1,0 +1,130 @@
+{
+  "framework": {
+    "id": "seed-v1-self-collided",
+    "previous_id": "seed",
+    "function": "Recursive Axiomatic Steel Man Collider with Reality Gates — now explicitly governed by Spinozian Geometric First Principles",
+    "method_overlay": "Spinozian Geometric First Principles Method",
+    "source": "Neuresthetics; original seed self-applied once through full stages 1–6 with mandatory grounding in definitions → axioms → deductive propositions → invariance checks; Spinoza’s geometric order fused with ground-up first-principles decomposition and reconstruction.",
+    "version": "1.0 (post self-collision)",
+    "automatic_self_feed": "False",
+    "last_run": "self-application round 1 — geometric-first-principles enforced",
+    "core_change_summary": [
+      "Replaced loose metaphorical framing with strict Spinozian geometric structure",
+      "All stages now derive deductively from explicit definitions + axioms",
+      "First-principles decomposition inserted as mandatory stage 0",
+      "Coherence now formally measured via proposition invariance under negation",
+      "Recursion bounded explicitly by geometric convergence (no infinite RSI)"
+    ],
+    "definitions": [
+      {
+        "term": "First Principle",
+        "details": "An irreducible, self-evident truth that cannot be reasonably doubted and from which all further propositions are deduced."
+      },
+      {
+        "term": "Steel Man (redefined)",
+        "details": "The logically strongest, most coherent, negation-invariant version of a proposition/system that can be constructed from given first principles without contradiction."
+      },
+      {
+        "term": "Reality Gate",
+        "details": "A logical connective that enforces a necessary condition drawn from the structure of reality (AND = joint necessity, NAND/NOR = universal basis, XNOR = invariance under complement)."
+      },
+      {
+        "term": "Collider (redefined)",
+        "details": "A deductive confrontation of mutually steel-manned propositions that exposes contradictions (via XOR-like difference) and forces reconstruction via necessary synthesis (AND/OR/XNOR)."
+      },
+      {
+        "term": "Coherence",
+        "details": "The property that every proposition is deductively entailed by prior axioms/definitions and remains true under double negation (Spinozian invariance)."
+      },
+      {
+        "term": "Geometric Order",
+        "details": "Presentation in the style of Spinoza’s Ethics: definitions → axioms → propositions with proofs → corollaries."
+      }
+    ],
+    "axioms": [
+      "A1. Every genuine proposition must follow necessarily from first principles or prior propositions (deductive necessity).",
+      "A2. Contradiction is impossible in a coherent system (non-contradiction).",
+      "A3. Double negation of any true proposition yields the original proposition (involution / invariance under complement).",
+      "A4. Any logical system capable of expressing NAND or NOR is functionally complete and can reconstruct every possible proposition from first principles.",
+      "A5. Coherence is preserved if and only if every proposition remains equivalent under negation of arbitrary subsets (parity invariance)."
+    ],
+    "principles": [
+      {
+        "principle": "Strict Geometric Deduction",
+        "details": "No assertion may appear without a deductive proof from definitions + axioms or previously proven propositions."
+      },
+      {
+        "principle": "Ground-Up Reconstruction",
+        "details": "Every concept / system must be capable of being decomposed to first principles and rebuilt without loss of coherence."
+      },
+      {
+        "principle": "Self-Steel-Manning",
+        "details": "The framework must be applied to itself; any detected weakness triggers decomposition → reconstruction → invariance check."
+      },
+      {
+        "principle": "Convergence via Invariance",
+        "details": "Recursion continues only until the output proposition set is stable under negation and critique (coherence delta → 0)."
+      }
+    ],
+    "stages": [
+      {
+        "stage": "0. First-Principles Decomposition (mandatory pre-entry)",
+        "description": "Reduce the input system/concept to irreducible first principles. Discard all non-necessary assumptions.",
+        "key_operations": ["repeated why-decomposition", "negation stress-test", "identify self-evident residues"]
+      },
+      {
+        "stage": "1. Geometric Foundation",
+        "description": "Establish crisp definitions and axioms from decomposed first principles.",
+        "key_gates": ["identity", "AND (necessity)", "NOT (complement test)"]
+      },
+      {
+        "stage": "2. Deductive Steel-Manning",
+        "description": "Construct the strongest possible version of each proposition deductively from the foundation.",
+        "key_gates": ["implication", "AND/OR synthesis", "XNOR equivalence check"]
+      },
+      {
+        "stage": "3. Collider Confrontation",
+        "description": "Place steel-manned version and its strongest negation/critique into deductive opposition; expose contradictions.",
+        "key_gates": ["XOR (difference)", "NAND/NOR (reduction to basis)"]
+      },
+      {
+        "stage": "4. Necessary Reconstruction",
+        "description": "Rebuild only what survives contradiction-free deduction; compress to minimal coherent form.",
+        "key_gates": ["AND (intersection)", "XNOR (invariance)", "basis rebuild via NAND/NOR"]
+      },
+      {
+        "stage": "5. Invariance & Convergence Check",
+        "description": "Apply double negation to every proposition; verify geometric entailment chain remains intact.",
+        "halt_condition": "All propositions satisfy XNOR(proposition, NOT(NOT(proposition))) ∧ deductive closure",
+        "recursive_mechanism": "If any proposition fails, return to stage 0 with amplified critique."
+      }
+    ],
+    "benefits_and_invariants": [
+      {
+        "item": "Absolute Deductive Transparency",
+        "details": "Every claim is traceable to explicit first principles via proof chain."
+      },
+      {
+        "item": "Negation Invariance Guarantee",
+        "details": "System remains coherent under arbitrary complement operations (Spinozian double-negation identity)."
+      },
+      {
+        "item": "Self-Correcting Universality",
+        "details": "Can rebuild itself from NAND/NOR + first principles at any point."
+      },
+      {
+        "item": "Bounded Recursion",
+        "details": "Geometric convergence replaces potentially explosive RSI behavior."
+      }
+    ],
+    "gates": [
+      {"category": "AND", "role": "joint necessity / conjunctive entailment"},
+      {"category": "OR",  "role": "inclusive possibility within coherent bounds"},
+      {"category": "NOT", "role": "complement test → invariance under inversion"},
+      {"category": "NAND", "role": "universal basis; foundation for total reconstruction"},
+      {"category": "NOR",  "role": "universal basis; dual foundation for total reconstruction"},
+      {"category": "XOR",  "role": "exposes irreducible difference / contradiction locus"},
+      {"category": "XNOR", "role": "tests invariance / equivalence after transformation"}
+    ]
+  }
+}
